@@ -21,7 +21,7 @@ chroma_dir = "chroma"       # 向量库落盘子目录（位于 index_dir 下）
 # ============ 模型配置 ============
 embedding_model = "BAAI/bge-m3"             # 本地 sentence-transformers 嵌入
 reranker_model = "BAAI/bge-reranker-v2-m3"  # CrossEncoder 重排
-llm_model = "qwen-max"                     # Qwen3-Max（DashScope OpenAI 兼容模式）
+llm_model = "qwen3-max"                     # Qwen3-Max（DashScope OpenAI 兼容模式）
 llm_base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 llm_temperature = 0.2
 dashscope_api_key = os.getenv("DASHSCOPE_API_KEY", "")                    # DASHSCOPE_API_KEY；未配置时证据直出
