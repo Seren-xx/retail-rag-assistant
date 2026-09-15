@@ -336,6 +336,7 @@ python scripts/evaluate_retrieval.py --today 2026-09-11
 ├── scripts/
 │   ├── build_index.py      # 构建索引（manifest 增量，幂等）
 │   └── evaluate_retrieval.py  # 五模式消融评测
+└── tests/                  # 76 个单元测试
 ```
 
 ## ⚙️ 配置说明
