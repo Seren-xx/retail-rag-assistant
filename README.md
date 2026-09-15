@@ -154,8 +154,8 @@
 ### 安装
 
 ```bash
-git clone https://github.com/Seren-xx/retail-rag-chatbot.git
-cd retail-rag-chatbot
+git clone https://github.com/Seren-xx/retail-rag-assistant.git
+cd retail-rag-assistant
 python -m venv .venv
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 pip install -e ".[dev]"        # 最小安装（运行单元测试：76 passed）
