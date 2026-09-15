@@ -336,11 +336,6 @@ python scripts/evaluate_retrieval.py --today 2026-09-11
 ├── scripts/
 │   ├── build_index.py      # 构建索引（manifest 增量，幂等）
 │   └── evaluate_retrieval.py  # 五模式消融评测
-├── data/                   # 24 SKU 商品表 + 6 条促销 + 8 篇知识文档
-├── eval/retrieval_cases.jsonl  # 85 条人工标注查询
-├── tests/                  # 76 个单元测试
-├── reports/                # 评测报告（CSV 汇总 + 逐条 JSON）
-└── pyproject.toml          # extras 分组：models/vector/llm/ui/redis/ingest-*/dev/all
 ```
 
 ## ⚙️ 配置说明
